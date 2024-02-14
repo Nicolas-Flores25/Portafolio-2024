@@ -170,7 +170,51 @@ header {
     padding: 30px;
     color: #fff;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+.titulo-form{
+    font-size: 20px;
+    margin: 5px;
+
+}
+
+.input-gmail {
+    width: 300px;
+    font-size: 16px;
+}
+ 
+.input-text, .input-gmail {
+    padding: 10px;
+    max-width: 360px;
+    max-height: 300px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input-text {
+    max-height: 300px;
+    width: 300px;
+}
+
+.contenedor-btn-form{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    max-width: 360px;
+    
+}
+
+.btn-form{
+    padding: 5px 10px 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--color-verde-claro);
+}
+
+
+.inputs-contacto {
+    font-family:'Noto Sans', sans-serif;
 }
 
 
@@ -199,6 +243,7 @@ header {
 
 .img-coffe {
     border-radius: 30px;
+    width: 95%;
 }
 
 .contacto {

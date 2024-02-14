@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //Accedemos a los botones y agregamos un evento para cuando se de click nos envíe al lugar del ID.
 
-    document.getElementById('quienSoy-btn').addEventListener('click', function (e) {
+    document.getElementById('inicio-btn').addEventListener('click', function (e) {
         e.preventDefault();
         window.scrollTo({
-            top: quienSoy - 250,
+            top: inicio - 250,
             behavior: "smooth"
         });
     })
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById('contacto-btn').addEventListener('click', function (e) {
         e.preventDefault();
         window.scrollTo({
-            top: contacto - 200,
+            top: contacto - 100,
             behavior: "smooth"
         });
     })

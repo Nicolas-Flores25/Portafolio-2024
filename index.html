@@ -165,32 +165,37 @@
 
   <section class="contacto-section">
     <div class="container">
-      <div class="row contacto">
+      <div class="row contacto" id="contacto">
         <div class="col-md-6">
           <div class="contacto-main">
-            <div class="titulo-main" id="contacto">
+            <div class="titulo-main">
               <p class="titulo-main">¡Contáctame!</p>
             </div>
-            <div>
-              <p class="texto-main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus tempora magnam
-                saepe
-                placeat inventore sed in quibusdam? Fugiat magni dicta dolores, optio maiores consectetur modi sit
-                magnam,
-                voluptatibus aut debitis.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime accusantium culpa sed, incidunt
-                doloribus
-                ipsa
-                ex repellat sequi voluptatum? Autem ipsa dolores error debitis est a distinctio molestias explicabo
-                laudantium.
-              </p>
-              <div class="contacto-botton">
-                <a href="mailto:nicolas.flores.eguizabal.25@gmail.com" class="contact-btn">Gmail</a>
+            <div class="inputs-contacto">
 
-                <a href="https://www.linkedin.com/in/nicolasfloreseguizabal/" target="_blank"
-                  class="contact-btn">LinkedIn</a>
+              <form action="mailto:nicolas.flores.eguizabal.25@gmail.com" method="post" enctype="text/plain">
 
-                <a href="https://github.com/Nicolas-Flores25" target="_blank" class="contact-btn">GitHub</a>
-              </div>
+                <label for="email" class="titulo-form">Correo electrónico:</label>
+
+                <br>
+
+                <input type="email" id="email" name="Email" required placeholder="Tu correo electrónico" class="input-gmail">
+
+                <br>
+
+                <label for="mensaje" class="titulo-form">Mensaje:</label>
+
+                <br>
+
+                <textarea id="mensaje" name="Mensaje:" required placeholder="Escribe tu mensaje aquí" class="input-text"></textarea>
+
+                <br>
+                <div class="contenedor-btn-form">
+                  <input type="submit" value="Enviar mensaje" class="btn-form">
+                </div>
+            </form>
+            
+
             </div>
           </div>
         </div>
