@@ -239,12 +239,11 @@ header {
     text-align: center;
     margin-bottom: 0;
     margin: 20px;
-}
-
-.img-coffe {
     border-radius: 30px;
     width: 95%;
 }
+
+
 
 .contacto {
     background: var(--color-verde);
@@ -265,6 +264,7 @@ header {
 .habilidades {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .logo-circulo {
