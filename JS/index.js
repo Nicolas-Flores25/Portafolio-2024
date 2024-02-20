@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
     quienSoy = document.getElementById('quien-soy').offsetTop
     //Guardamos la posicion de la pagina.
     habilidades = document.getElementById('habilidades').offsetTop,
-        proyectos = document.getElementById('proyectos').offsetTop,
-        contacto = document.getElementById('contacto').offsetTop;
+    proyectos = document.getElementById('proyectos').offsetTop,
+    contacto = document.getElementById('contacto').offsetTop;
 
     //Accedemos a los botones y agregamos un evento para cuando se de click nos envíe al lugar del ID.
 
