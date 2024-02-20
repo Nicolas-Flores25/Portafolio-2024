@@ -300,6 +300,11 @@ header {
 .card {
     margin: .5em;
     padding: 0;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .tecnologias {
@@ -309,6 +314,13 @@ header {
 
 .tecnologia {
     margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.tecnologia:hover {
+
+    transform: scale(1.1);
+
 }
 
 
