@@ -274,6 +274,11 @@ header {
     overflow: hidden;
     margin: 10px;
     background-color: #000;
+    transition: transform 0.3s ease;
+}
+
+.logo-circulo:hover {
+    transform: scale(1.1);
 }
 
 .proyectos {
