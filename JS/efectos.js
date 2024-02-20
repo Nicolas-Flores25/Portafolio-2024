@@ -9,4 +9,21 @@ document.addEventListener("DOMContentLoaded", function() {
             link.style.top = '0';
         }, 500 + (index * 500));
     });
+
+    var efectoCristal = document.querySelectorAll('.cristal');
+    
+    efectoCristal.forEach(function(link, index){
+        link.style.opacity = "0";
+    });
+
+    //agregamos un retraso para que cargue la animacion
+
+    setTimeout(function(){
+        efectoCristal.forEach(function(link, index){
+            link.style.transition = 'opacity 1.5s ease-in-out';
+            link.style.opacity = "1";
+        }, 500);
+
+    });
+
 });
